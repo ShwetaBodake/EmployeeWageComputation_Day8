@@ -8,7 +8,8 @@ namespace EmployeeWageComputation_Day8
         {
             Console.WriteLine("Wel_Come to Employee Wage Computation Problem");
 
-
+            AttendanceCheck x = new AttendanceCheck();
+            x.EmpAttendace();
         }
     }
 }
