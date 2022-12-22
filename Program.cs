@@ -10,6 +10,12 @@ namespace EmployeeWageComputation_Day8
 
             AttendanceCheck x = new AttendanceCheck();
             x.EmpAttendace();
+
+            DailyEmpWage_UC2 dailyWage = new DailyEmpWage_UC2();
+            dailyWage.DailyWage();
+
+            PartTimeEmpWage partTimeEmpWage = new PartTimeEmpWage();
+            partTimeEmpWage.CheckPartTimeEmp_Wage();
         }
     }
 }

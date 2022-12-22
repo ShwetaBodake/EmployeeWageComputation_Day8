@@ -8,7 +8,7 @@ namespace EmployeeWageComputation_Day8
             Random random= new Random();
 			int isPresent = random.Next(0, 2);
 
-			Console.WriteLine(isPresent);
+			//Console.WriteLine(isPresent);
 			if (isPresent == 1)
 			{ Console.WriteLine("Employee is PRESENT"); }
 			else
