@@ -8,14 +8,26 @@ namespace EmployeeWageComputation_Day8
         {
             Console.WriteLine("Wel_Come to Employee Wage Computation Problem");
 
-            AttendanceCheck x = new AttendanceCheck();
-            x.EmpAttendace();
+            //AttendanceCheck x = new AttendanceCheck();
+            //x.EmpAttendace();
 
-            DailyEmpWage_UC2 dailyWage = new DailyEmpWage_UC2();
-            dailyWage.DailyWage();
+            //DailyEmpWage_UC2 dailyWage = new DailyEmpWage_UC2();
+            //dailyWage.DailyWage();
 
-            PartTimeEmpWage partTimeEmpWage = new PartTimeEmpWage();
-            partTimeEmpWage.CheckPartTimeEmp_Wage();
+            //PartTimeEmpWage partTimeEmpWage = new PartTimeEmpWage();
+            //partTimeEmpWage.CheckPartTimeEmp_Wage();
+
+           // UsingSwitchCase UsingSwitchCase = new UsingSwitchCase();
+            //UsingSwitchCase.CalculateEmpWage();
+
+            //WagesForMonth_UC5 WagesForMonth = new WagesForMonth_UC5();
+            //WagesForMonth.WagesForMonth();
+
+           Wages_Till_WorkingDay_Hour  WagesTillWorkingDayHour = new Wages_Till_WorkingDay_Hour();
+           WagesTillWorkingDayHour.WagesTillWorkingDayHour();
+
+            //RefactorEmpWageComputation RefactorEmpWageComputation = new RefactorEmpWageComputation();
+            //RefactorEmpWageComputation.RefactorEmpWage();
         }
     }
 }
